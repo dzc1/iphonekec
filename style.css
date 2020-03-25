@@ -1,0 +1,25 @@
+#iphone-x {
+    height: 678px;
+    width: 314px;
+    display: inline-block;
+    background: #0000;
+    border: 16px solid #080808;
+    border-radius: 44px;
+    box-shadow: 0 19px 38px rgba(0, 0, 0, 0.30), 0 15px 12px rgba(0, 0, 0, 0.22);
+    position: relative;
+}
+#iphone-x:before {
+    position: absolute;
+    left: calc(50% - 28%);
+    top: 0;
+    width: 56%;
+    background: #080808;
+    height: 26px;
+    content: "";
+    border-radius: 0 0 16px 16px;
+}
+.animated-gif{
+    height: 668px;
+    width: 314px;
+    border-radius: 16px;
+}
